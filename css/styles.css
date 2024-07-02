@@ -13,9 +13,6 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
-}
-
 button {
   cursor: pointer;
 }
@@ -71,6 +68,9 @@ button {
 
 .hero {
   background-color: #2e2f42;
+}
+
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -89,19 +89,20 @@ button {
   color: #fff;
 }
 
-.hero-button: hover;
-.hero-button: focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
 }
 
 /* ---------SECTIONS general-------------*/
+
 .head-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -116,7 +117,7 @@ button {
 .page-footer {
   background-color: #2e2f42;
 }
-.parafraf {
+.paragraf {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -130,4 +131,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
